@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="pick.css">
+</head>
+<body>
+    <div class="vehicle-container">
+        <div class="return-option">
+          <label>
+            <input type="checkbox" id="return-checkbox"> Return to the same location
+          </label>
+        </div>
+        <div class="form-section">
+          <div class="pickup-dropoff">
+            <label>
+              <input type="radio" name="option" checked> Pick-Up
+            </label>
+            <label>
+              <input type="radio" name="option"> Drop-Off
+            </label>
+          </div>
+          <div class="form-fields">
+            <div>
+              <label for="location">Location</label>
+              <select id="location">
+                <option>.......</option>
+                <option value="">Kannur</option>
+                <option value="">Kozhikode</option>
+                <option value="">Wayanad</option>
+                <option value="">Malappuram</option>
+                <option value="">Ernakulam</option>
+              </select>
+            </div>
+            <div>
+              <label for="date">Date</label>
+              <input type="date" id="date">
+            </div>
+            <div>
+              <label for="time">Time</label>
+              <input type="time" id="time">
+            </div>
+          </div>
+        </div>
+        <button id="submit-btn"><a href="alert.html">Submit</a></button>
+
+</body>
+</html>

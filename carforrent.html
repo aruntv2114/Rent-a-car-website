@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="prjt.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.5.0/remixicon.css" integrity="sha512-6p+GTq7fjTHD/sdFPWHaFoALKeWOU9f9MPBoPnvJEWBkGS4PKVVbCpMps6IXnTiXghFbxlgDE8QRHc3MU91lJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body{
+            background-color: black;
+        }
+        .rentacar{
+            margin-top: 100px;
+            margin-bottom: 200px;
+        }
+        .rentacarbox{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+        }
+        .rentacarimg img{
+            width: 800px;
+            height: 100%;
+        }
+        .rentacardetails{
+            text-align: center;
+            color: white;
+            border: 2px solid white;
+            width: 400px;
+            height: 450px;
+            border-radius: 5%;
+            box-shadow: 3px 3px 3px 3px gray;
+            padding: 15px 10px;
+        }
+        .rentacardetails h1{
+            margin-bottom: 45px;
+        }
+        .rentacardetails ul li{
+            list-style: none;
+            font-size: 20px;
+            margin-top: 20px;
+        }
+        .rentacarbtn{
+            background-color: rgb(240, 167, 31);;
+            margin-top: 30px;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+        .rentacarbtn a{
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .rentacarbtn:hover{
+            background-color: blue;
+        }
+        .rentacarfeatures{
+            padding: 20px;
+            margin-left: 100px;
+        }
+        .rentacarfeatures ul li{
+            list-style: none;
+            font-size: 20px;
+            margin-top: 20px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <h1>Logo</h1>
+            <ul class="navlist">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="more.html">Carpool</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="menu-icon" id="menu-icon">☰</div>
+            <button class="log"><b><a href="logout.html">login</a></b></button>
+        </div>
+        
+    </header>
+    <br>
+    <div class="rentacar">
+        <div class="rentacarbox">
+            <div class="rentacarimg">
+                <img src="images/More/innova-Photoroom.png" alt="">
+            </div>
+            <div class="rentacardetails">
+                <h1>Innova Crysta</h1>
+                <ul>
+                    <li>35 Days or More : &#8377; 3000/- per day</li>
+                    <li>25 to 34 Days : &#8377; 3500/- per day</li>
+                    <li>11 to 24 Days : &#8377; 4000/- per day</li>
+                    <li>Upto 10 Days : &#8377; 4500/- per day</li>
+                </ul>
+                <button class="rentacarbtn"><a href="pickform.html">Book Now</a></button>
+            </div> 
+        </div>
+        <div class="rentacarfeatures">
+            <h3>Specifications:</h3>
+            <ul>
+                <li>Manual</li>
+                 <li>Doors: 4</li>
+                <li>Passengers: 7</li>
+                <li>Fuel:Diesel</li>
+            </ul>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="foot-content">
+                <h3>ATV WHEELS</h3>
+             <div class="contact-list">
+                <li><a href="#">Kannur-Kerala-India</a></li>
+                <li><a href="#">support@atvwheels.com</a></li>
+                <li><a href="#">+91 9746004278</a></li>
+             </div>
+            </div>
+            <div class="foot-content">
+                <div class="contact-list">
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="logout.html">Logout</a></li>
+                </div>
+            </div>
+            <div class="foot-content footicon">
+                <h3>Follow Us</h3>
+                <div class="contact-icons">
+                    <li><a href=""><i class="ri-facebook-line"></i></a></li><br>
+                    <li><a href=""><i class="ri-instagram-line"></i></a></li><br>
+                    <li><a href=""><i class="ri-twitter-line"></i></a></li>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+          <p>&copy;2024ATVWheels All rights reserved</p> 
+        </div>
+    </footer>
+</body>
+</html>

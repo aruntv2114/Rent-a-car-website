@@ -1,0 +1,592 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.main{
+    background-color:black;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    color: white;
+    width:100%;
+}
+header{
+    background-color:black;
+    box-shadow: 0px 5px 0px rgb(255, 127, 8);
+}
+.navlist {
+    list-style: none;
+    display: flex;
+}
+
+.navlist li {
+    margin: 0 10px;
+}
+
+.navlist li a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    transition: all .40s ease;
+}
+
+.navlist li a:hover{
+    transform: scale(1.01) translateY(-5px);
+     color: rgb(240, 167, 31);
+}
+.menu-icon {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+.carimg{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    place-items: center;
+    margin-top: 5%;
+}
+.carimg p{
+    font-family: "Edu AU VIC WA NT Arrows", cursive;
+    color: rgb(255, 127, 8);
+    font-size: 50px;
+}
+.carimg img{
+    background-size: cover;
+}
+.log{
+    padding: 15px;
+    border-radius: 15%;
+    background-color: rgb(240, 167, 31);
+    box-shadow: 3px -3px 3px black;
+    font-style: oblique;
+}
+.log a{
+    text-decoration: none;
+    color: white;
+}
+.log a:hover{
+    font-size: 20px;
+}
+.work{
+    border: 2px solid black;
+    border-radius: 10%;
+    width: 800px;
+    height: 1000px;
+    text-align:center;
+    margin-left: 25%;
+    box-shadow: 3px 3px 3px gray;
+    background-color:rgb(240, 167, 31);
+    margin-top: 200px;
+}
+.work h1{
+    margin-top: 40px;
+    color:black;
+    text-shadow: -2px -2px 5px black; 
+    text-align: center;
+}
+.one{
+    margin-top: 40px;
+    margin-left: -350px;
+}
+.two{
+    position: relative;
+    margin-left: 500px;
+}
+span{
+    color: black;
+    font-size: 60px;
+}
+.float{
+    display: flex;
+    justify-content: center;
+}
+.float p{
+    color: white;
+}
+/* .back-img{
+    width: 250px;
+    height: 300px;
+}
+.main-img{
+    width: 250px;
+    height: 300px;
+} */
+.review{
+    margin-top: 75px;
+}
+.review h1{
+    text-align: center;
+    color: white;
+}
+.reviewcard{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    margin-top: 50px;
+    place-items: center;
+    margin-left: 50px;
+}
+.reviewcard1{
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: -3px 3px 3px  grey;
+}
+.ri-chat-1-fill{
+    position: relative;
+    left: 130px;
+    font-size:40px;
+    margin-bottom: 60px;
+    color: rgb(240, 167, 31);
+}
+.reviewcard1 span{
+    border: 2px solid white;
+    color: white;
+    padding: 3px 5px;
+    border-radius: 50%;
+    font-size: 20px;
+    background-color:violet;
+}
+.ri-star-s-line{
+    color: gold;
+}
+.carousel-inner{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#carouselExampleInterval .carousel-inner img{
+    height: 400px;
+}
+.why{
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+    margin-top: 40px;
+    padding: 10%;
+    background-color: rgb(196, 190, 190);
+    border-radius: 2rem;
+    box-shadow: -3px 3px 20px black;
+}
+.why img{
+    width: 600px;
+    height:650px;
+}
+.lastsection{
+    display: flex;
+    gap: 20px;
+}
+.lastsection span{
+    color: rgb(255, 127, 8);
+}
+.lets{
+    margin-top: 150px;
+}
+.lets h1{
+    font-size: 60px;
+}
+.ride{
+    margin-left: 75px;
+}
+footer{
+    background-color:black;
+    padding: 10px;
+    border-radius: 15px;
+    color: white;
+    box-shadow: 3px 3px 10px 3px gray;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 35px;
+    height: 150px;
+}
+
+.container ul{
+    list-style: none;
+}
+.container ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.container ul li a:hover{
+    color: rgb(240, 167, 31);
+}
+.contact-list{
+    margin-bottom: 3rem;
+}
+.contact-list li{
+    margin-bottom: 10px;
+    display: block;
+}
+.contact-list li a{
+    display: block;
+    color: gray;
+    font-size:1.1rem;
+    font-weight: 600;
+    transition: all .40s ease;
+}
+.contact-list li a:hover{
+    transform: scale(1.01) translateY(-5px);
+     color: rgb(240, 167, 31);
+}
+.foot-content{
+    list-style: none;
+    cursor: pointer;
+}
+.foot-content a{
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    align-items: center;
+}
+.contact-icons i{
+    height: 40px;
+    width: 40px;
+    background:black;
+    border-radius: 10px;
+    color: rgb(240, 167, 31);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    margin-right: 10px;
+    transition: all .40s ease;
+}
+.contact-icons i:hover{
+    transform: scale(1.01) translateY(-5px);
+    color: white;
+    background: orange;
+}
+.bottom{
+    margin-top: 60px;
+    padding-top: 10px;
+    background-color:gray;
+    height: 50px;
+    border-radius: 1.5rem;
+    text-align: center;
+}
+
+@keyframes slideright{
+    from{transform: translateX(300%);}
+}
+  @media (max-width:1199px){
+    .work{
+        margin-left: 5%;
+    }
+    .feature{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .more{
+        position: relative;
+        left: 850px;
+    }
+    .reviewcard{
+        display: grid;
+        grid-template-columns: repeat(2,450px);
+        gap: 30px;
+        margin-top: 50px;
+        place-items: center;
+        margin-left: 50px;
+    }
+    .lastsection{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin: 0;
+        padding: 0;
+        place-items: center;
+    }
+    .lets{
+        margin-top: 0px;
+    }
+    .bottom{
+        font-size: 20px;
+    }
+  }
+  
+  @media (max-width:950px){
+    .carimg{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .work{
+        width: 600px;
+        height: 1000px;
+        margin-left: 10%;
+        
+    }
+    .work h1{
+        margin-top: 40px;
+        text-align: center;
+    }
+    .one{
+        margin-top: 40px;
+    }
+    .two{
+        position: relative;
+        margin-left: 0px;
+    }
+    .four{
+        position: relative;
+        margin-left: 0px;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    
+    .feature{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        row-gap: 35px;
+        margin-left: 75px;
+    }
+    .why{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-top: 40px;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        margin-top: 35px;
+        gap: 30px;
+        height: 100%;
+    }
+    .bottom{
+        font-size: 10px;
+    }
+    .reviewcard{
+        display: grid;
+        grid-template-columns: repeat(1,450px);
+        gap: 30px;
+        margin-top: 50px;
+        place-items: center;
+        margin-left: 50px;
+    }
+    .more{
+        position: relative;
+        left: 650px;
+    }
+    .bottom{
+        font-size: 20px;
+    }
+  }
+
+
+  @media (max-width: 768px){
+    .navlist {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        background-color: #444;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        padding: 15px;
+        animation: slideDown 0.3s ease-out;
+    }
+
+    .navlist li {
+        margin: 10px 0;
+    }
+
+    .navlist a {
+        color: #fff;
+        font-size: 18px;
+        padding: 10px 15px;
+        display: block;
+        border-radius: 4px;
+        transition: background-color 0.3s;
+    }
+
+    .navlist a:hover {
+        background-color: #555;
+    }
+
+    .navlist.show {
+        display: flex;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    @keyframes slideDown {
+        from {
+            opacity: 0;
+            transform: translateY(-10px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    .carimg p{
+        font-size:40px ;
+    }
+    .work{
+        width: 580px;
+        height: 1000px;
+        margin-left: 5%;
+    }
+    .feature{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .more{
+        left: 500px;
+    }
+    .why-contant{
+        margin-left: 50px;
+    }
+    .why img{
+        width: 400px;
+        height:450px;
+    } 
+    .lastimg img{
+        width: 600px;
+        height: 450px;
+    }
+    .bottom{
+        font-size: 20px;
+    }
+    .top i{
+    display: none;
+    }
+    .featurevehicle{
+        display: none;
+    }
+}
+@media (max-width: 600px){
+    .carimg img{
+        width: 400px;
+        height: 450px;
+    }
+    .carimg p{
+        font-size: 35px;
+        text-align: center;
+    }
+    .work{
+        width: 400px;
+        height: 900px;
+        margin-left:5%;
+    }
+    .one{
+        position: relative;
+        margin-left: 50px;
+    }
+    .featurevehicle{
+        border: none;
+        box-shadow:none;
+    }
+    .box{
+        margin-left: -40px;
+    }
+    .more{
+        left: 275px;
+    }
+    .reviewcard1{
+        margin-left: -75px;
+    }
+    .carousel-inner img{
+        width: 80%;
+    }
+    .lastimg img{
+        width: 500px;
+        height: 450px;
+        margin-left: -40px;
+    }
+    .footicon{
+        display: none;
+    }
+}
+@media (max-width: 450px){
+    .carimg img{
+        width: 300px;
+        height: 450px;
+    }
+    .carimg p{
+        font-size: 35px;
+        text-align: center;
+    }
+    .work{
+        width: 300px;
+        height: 900px;
+        margin-left:5%;
+    }
+    .reviewcard1{
+        margin-left:-200px;
+        padding: 10px;
+        font-size: 15px;
+    }
+    .carousel-inner img{
+        width: 90%;
+    }
+    .why img{
+        width: 350px;
+        height:400px;
+    } 
+    .lastimg img{
+        width: 400px;
+        height: 350px;
+        margin-left: -40px;
+    }
+    .lets h1{
+        font-size: 40px;
+    }
+    .bottom{
+        font-size: 15px;
+    }
+  
+}
+@media (max-width: 350px){
+    .carimg img{
+        width: 250px;
+        height: 350px;
+    }
+    .carimg p{
+        font-size: 25px;
+        text-align: center;
+    }
+    .work{
+        width: 300px;
+        height: 900px;
+        margin-left:5%;
+    }
+    .reviewcard1{
+        margin-left:-200px;
+        padding: 10px;
+        font-size: 15px;
+    }
+    .carousel-inner img{
+        width: 90%;
+    }
+    .why img{
+        width: 300px;
+        height:350px;
+    } 
+    .lastimg img{
+        width: 400px;
+        height: 350px;
+        margin-left: -40px;
+    }
+    .lets h1{
+        font-size: 40px;
+    }
+    .bottom{
+        font-size: 15px;
+    }
+   
+}
+ 

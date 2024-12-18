@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contant Us</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.5.0/remixicon.css" integrity="sha512-6p+GTq7fjTHD/sdFPWHaFoALKeWOU9f9MPBoPnvJEWBkGS4PKVVbCpMps6IXnTiXghFbxlgDE8QRHc3MU91lJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="prjt.css">
+    <style>
+.contact-form form input,
+form textarea{
+    border: none;
+    outline: none;
+    width: 50%;
+    padding: 18px;
+    background: white;
+    color: #12141c;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    border-radius: 0.5rem;
+}
+.contact-form textarea{
+    resize: none;
+    height: 220px;
+}
+.contact-form form .send{
+    font-size: 17px;
+    font-weight: 500px;
+    background: orange;
+    color: white;
+    width: 190px;
+    transition: all .40s ease;
+    cursor: pointer;
+    margin-right: 750px;
+}
+body{
+    background-color: black;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <h1>Logo</h1>
+            <ul class="navlist">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="more.html">Carpool</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="menu-icon" id="menu-icon">☰</div>
+            <button class="log"><b><a href="logout.html">login</a></b></button>
+        </div>
+        
+    </header>
+    <br><br><br><br>
+    <section class="contact" id="contact">
+        <div class="contact-form">
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="ba4fc8f7-9183-4269-8019-03caa0a97abe">
+                <input type="text" placeholder="Enter Your Name" required>
+                <input type="email" placeholder="Enter Your Email" required>
+                <textarea name="text" id="" cols="40" rows="10" placeholder="Enter Your Message" required></textarea>
+                <input type="submit" value="Submit" class="send">
+            </form>
+        </div>
+    </section><br><br><br><br>
+    <footer>
+        <div class="container">
+            <div class="foot-content">
+                <h3>ATV WHEELS</h3>
+             <div class="contact-list">
+                <li><a href="#">Kannur-Kerala-India</a></li>
+                <li><a href="#">Email:support@atvwheels.com</a></li>
+                <li><a href="#">Phone:+91 9746004278</a></li>
+             </div>
+            </div>
+            <div class="foot-content">
+                <div class="contact-list">
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="logout.html">Logout</a></li>
+                </div>
+            </div>
+            <div class="foot-content footicon">
+                <h3>Follow Us</h3>
+                <div class="contact-icons">
+                    <li><a href=""><i class="ri-facebook-line"></i></a></li><br>
+                    <li><a href=""><i class="ri-instagram-line"></i></a></li><br>
+                    <li><a href=""><i class="ri-twitter-line"></i></a></li>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <p>&copy;2024ATVWheels All rights reserved</p>
+        </div>
+    </footer>
+    <script src="demo.js"></script>
+</body>
+</html>
